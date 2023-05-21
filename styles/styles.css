@@ -1,0 +1,208 @@
+/*font importation*/
+@import "/styles/fonts.css";
+
+*{
+    color: white;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+*:focus{
+    outline: none;
+}
+/*arrière*/
+body{
+    background-image: url(/images/bathome1.png);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: contain; 
+    margin: 0;
+}
+/*navbar*/
+nav{
+    display: flex;
+    justify-content: center;
+    column-gap: 60%;
+}
+
+.logo img{
+    margin: 15px;
+    transition: .5s all ease-in-out;
+}
+.logo img:hover{
+    -webkit-filter: grayscale(100%) brightness(200%) sepia(90%) hue-rotate(5deg) saturate(500%) contrast(1);
+    filter: grayscale(50%) brightness(70%) sepia(100%) hue-rotate(5deg) saturate(500%) contrast(1);
+}
+.hover:hover{
+    text-decoration: underline;
+}
+/*section 1*/
+#intro{
+    text-align: center;
+    margin: 400px 0;    
+}
+.boutton {
+    margin: 50px 0;
+}
+
+.boutton a{
+    background: linear-gradient(to right, #EDDEBF, #890008);
+    margin: 0 1%;
+    padding: 20px 40px;  
+    opacity: 40%;
+    transition: .5s all ease-in-out;
+}
+.boutton a:hover{
+    opacity: 100%;
+}
+.fleche{
+    text-align: center;
+    margin-bottom: 15%;
+}
+.fleche img{
+    width: 75px;
+}
+/*scroll*/
+.minilogo {
+    position: fixed;
+    top: 50%;
+    right:3%;   
+}
+
+.minilogo img {
+    padding: 10px 0;
+    transition: .5s all ease-in-out;
+}
+.minilogo img:hover{
+    -webkit-filter: grayscale(100%) brightness(200%) sepia(90%) hue-rotate(5deg) saturate(500%) contrast(1);
+    filter: grayscale(50%) brightness(70%) sepia(100%) hue-rotate(5deg) saturate(500%) contrast(1);
+}
+/*section carte*/
+.soustitre{
+    text-align: justify;
+    margin: 10% 10% 3% 10%;
+    position: relative;
+}
+.arme {
+    position: absolute;
+    top: -80px;
+    left: 20px;
+}
+.arme img {
+    width: 150px;
+}
+
+.carte{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 5%;
+    margin: 0 10%;
+}
+.carte div img{
+    width: 100%;
+    transition: .3s all ease-in-out;
+}
+.carte div img:hover{
+    transform: scale(110%)
+}
+.minilogo {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    float: right;
+    height: 80px;
+}
+
+/*justice league*/
+.heros {
+    text-align: justify;
+    margin:5% 15% ;
+}
+
+/*bande annonces*/
+.imagesmedia {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 5%;
+}
+.imagesmedia div .fleche1{
+    display: block;
+    justify-content: center;
+    width: 90%;
+}
+
+.action{
+    text-align: justify;
+    background: linear-gradient(to bottom right, #7a7567, #103246 );
+    border-radius: 0 20px 20px 0;
+    padding: 10px;
+    margin: 0;
+}
+.annonce {
+    text-align: center;
+    margin-bottom: 5%;
+}
+.annonce img{
+    transition: .3s all ease-in-out;
+}
+.annonce img:hover{
+    filter: drop-shadow(0 0 20px white);
+}
+/*formulaire*/
+.email {
+    background: linear-gradient(to bottom right, #7a7567, #103246 );
+    padding: 1% 20%;
+}
+input, select {
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+}
+::placeholder {
+    color:white;
+}
+[value]{
+    background: #103246;
+}
+.email .boutton, .email .boutton2 {
+    text-align: center;
+}
+/*boutton2*/
+.boutton2{
+    padding: 5% 0;
+} 
+.boutton2 a{
+    border: 2px solid;
+    border-image: linear-gradient(to right, #EDDEBF, #19587D) 1;
+    padding: 10px 15px;
+    margin: 0 5%;
+    opacity: 40%;
+    transition: .5s all ease-in-out;
+}
+.boutton2 a:hover{
+    opacity: 100%;
+}
+.citation {
+    margin: 5% 20%;
+    text-align: center;
+    align-items: center;
+}
+/*footer*/
+.foot2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.foot3{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 1% 0 5% 0;
+}

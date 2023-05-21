@@ -1,0 +1,34 @@
+@font-face {
+    font-family:"titre h1";
+    src:url('/fonts/Rajdhani-Medium.ttf');
+}
+@font-face {
+    font-family: "titre h2";
+    src: url('/fonts/SpaceGrotesk-Bold.ttf');
+}
+@font-face {
+    font-family: "sous titre";
+    src: url('/fonts/SpaceGrotesk-Regular.ttf');
+}
+
+/*integration font*/
+
+p {
+    font-family: "sous titre";
+}
+.nav {
+        font-family: "titre h1"; 
+}
+.boutton {
+    font-family: "titre h1";
+}
+
+.intro h2 {
+    font-family: "sous titre";
+}
+.soustitre h1, .heros h1, .h1  {
+    font-family: "titre h1";
+}
+h2 {
+    font-family: "titre h1";
+}
